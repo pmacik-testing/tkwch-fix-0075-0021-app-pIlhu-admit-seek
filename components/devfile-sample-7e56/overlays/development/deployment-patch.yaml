@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-7e56
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0021-tenant/tkwch-fix-0075-0021-app/devfile-sample-7e56@sha256:56996d8c00c6aae1b9891f912b57d92710224e1eca6762c41c301ec5bd835790
+        name: my-nodejs
+        resources: {}
+status: {}
